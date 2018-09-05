@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.google.android.gms.auth.api.Auth;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
@@ -74,7 +75,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
             String name = account.getDisplayName();
             String email = account.getEmail();
             String img_url = account.getPhotoUrl().toString();
-
+            Toast.makeText(this, email, Toast.LENGTH_LONG).show();
             Log.d(TAG, "handleResult: INFO: " + name + " " + email + " " + img_url);
         } else {
             Log.e(TAG, "handleResult: Sync Failed");
