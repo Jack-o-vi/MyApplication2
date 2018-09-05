@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "586424377905",
+    "firebase_url": "https://utility-braid-215508.firebaseio.com",
+    "project_id": "utility-braid-215508",
+    "storage_bucket": "utility-braid-215508.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586424377905:android:efba7b7653a9b98d",
+        "android_client_info": {
+          "package_name": "com.chisw.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586424377905-4k5fd3in3c457r80vmvmehpho3fmln90.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chisw.myapplication",
+            "certificate_hash": "ca4e147db7e33a9d822c4ec4d126fd42063525ac"
+          }
+        },
+        {
+          "client_id": "586424377905-v92lh9qral16vjc8uggo4653lu7a6gks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmuCu-yq1kD6YQX9R-4Iti095QHBvMik4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586424377905-v92lh9qral16vjc8uggo4653lu7a6gks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
